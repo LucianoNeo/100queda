@@ -32,7 +32,7 @@ nav {
     background-color: #0B0B0B;
     width: 100vw;
     height: 100vh;
-    background-image: url('bg.png');
+    background-image: url('./bg.png');
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
