@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: #0B0B0B;
 }
 
 a {
@@ -19,8 +20,7 @@ a:hover {
 }
 
 nav {
-    width: 200px;
-    height: 200px;
+    padding: 0 10px 0 10px;
     display: flex;
     flex-direction: column;
     padding: 16px;
@@ -29,7 +29,7 @@ nav {
 }
 
 .wrapper {
-    background-color: #0B0B0B;
+
     width: 100vw;
     height: 100vh;
     background-image: url('./bg.png');
@@ -45,7 +45,15 @@ nav {
     .wrapper {
         background-image: url('./bg-mobile.png');
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: flex-end;
+    }
+
+    nav {
+        flex-direction: row;
+        font-size: 12px;
+        margin-bottom: 64px;
+        gap: 5px;
+        justify-content: space-between;
     }
 }

@@ -10,7 +10,7 @@ function App() {
           target='_blank'
           style={{
             display: 'flex',
-            gap: '16px',
+            gap: '8px',
             alignItems: 'center',
 
           }}>
@@ -22,7 +22,7 @@ function App() {
           target='_blank'
           style={{
             display: 'flex',
-            gap: '16px',
+            gap: '8px',
             alignItems: 'center',
 
           }}>
@@ -34,7 +34,7 @@ function App() {
           target='_blank'
           style={{
             display: 'flex',
-            gap: '16px',
+            gap: '8px',
             alignItems: 'center',
 
           }}>
